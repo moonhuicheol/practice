@@ -16,7 +16,7 @@ app.use('/login', login);
 app.use('/board', board);
 
 app.listen(port, ()=>{
-    console.log(port, '번호로 서버연결되었습니다.');
+    console.log(port, '번호로 서버연결되었습니다.ㅋㅋㅋ');
 });
 
 module.exports = app;
