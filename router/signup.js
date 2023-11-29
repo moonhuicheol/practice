@@ -4,7 +4,7 @@ const userRepository = require('../repository/userRepository');
 router.post('/', (req, res) => {
     let member = req.body;
     const result = userRepository.signup(member);
-
+    console.log(member);
     if (result) {
         res.json({ result, message: '회원가입 완료'});  //result 가 왜 빈 객체인지??
     } else {
